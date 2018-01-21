@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="action_clear">Clear</string>
+    <string name="test">test</string>
+    <string name="city_hint">Add City Name</string>
+    <string name="submit">OK</string>
+</resources>

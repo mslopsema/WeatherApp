@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/fab_margin"
+        android:background="@color/cityTitle"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:id="@+id/item_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/period0"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView0"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period1"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView1"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period2"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView2"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period3"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView3"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period4"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView4"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period5"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView5"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period6"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView6"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/period7"
+                android:layout_width="75dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <WebView
+                    android:id="@+id/webView7"
+                    android:layout_width="49dp"
+                    android:layout_height="49dp"/>
+                <TextView
+                    android:id="@+id/title7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"/>
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>
